@@ -15,7 +15,7 @@ export async function MapSearch(address) {
     }
     catch (error) {
         console.log(error);
-        return "Error getting response";
+        return "error";
     }
 }
 
